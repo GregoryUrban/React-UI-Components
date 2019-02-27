@@ -1,13 +1,21 @@
 /* All styles for your header Components live here */
 .header-container {
     border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
 }
 
 img {
     border: 1px solid green;
+    width: 90%;
+    margin: 1px;
 }
 
 .title-content {
     border: 1px solid green;   
+}
+
+h2 {
+    font-weight: strong;
 }
 

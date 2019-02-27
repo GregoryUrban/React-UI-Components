@@ -4,12 +4,10 @@ import './Header.css';
 
 const HeaderTitle = () => (
   <div className="title">
-    <p>
-      <span className="main-title">Lambda School</span>{" "}
-      {/* <span className="secondary-title">
-        @lambdaschool {moment().format("Do MMM")}
-      </span> */}
-    </p>
+    <h4>
+    Lambda School
+    </h4>
+
   </div>
 );
 
