@@ -9,6 +9,7 @@ body {
   line-height: 1.5;
   box-sizing: border-box;
   font-family: sans-serif;
+  border: 2px solid green;
 }
 
 .app-container {
