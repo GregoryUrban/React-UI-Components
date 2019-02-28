@@ -12,7 +12,9 @@
     /* flex-direction: column; */
     flex-wrap: wrap;
     /* margin-left: 4rem; */
-    padding: 9px;
+    padding-left: 55px;
+    line-height: 1rem;
+
 }
 
 .primary-content    {
@@ -28,7 +30,14 @@
 }
 
 .card-content a {
+    display: block;
     text-decoration: none;
     color: gray;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 
