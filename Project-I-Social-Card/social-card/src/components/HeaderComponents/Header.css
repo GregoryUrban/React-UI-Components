@@ -18,7 +18,16 @@ img {
     margin: 2px;   
 }
 
-h2 {
-    font-weight: strong;
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
+h4 {
+    padding: 1px;
+}
+
+.secondary-title {
+    color: gray;
+  }
