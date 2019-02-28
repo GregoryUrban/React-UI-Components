@@ -11,7 +11,7 @@ const HeaderTitle = () => (
     Lambda School
     </h4>
     
-    <span>@lambdaSchool - {moment().format('MMMM Do YYYY, h:mm:ss a')} </span>
+    <span>@lambdaSchool - {moment().format("D MMM")} </span>
 
   </div>
 );
