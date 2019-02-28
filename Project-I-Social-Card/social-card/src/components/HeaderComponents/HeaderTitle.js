@@ -7,14 +7,9 @@ import moment from 'moment';
 
 const HeaderTitle = () => (
   <div className="title">
-    <h4>
-    Lambda School
-    </h4>
-    
-    <span>@lambdaSchool - {moment().format("D MMM")} </span>
-
+    <h4>Lambda School</h4>
+    <span>@LambdaSchool - {moment().format("D MMM")} </span>
   </div>
 );
 
-export default HeaderTitle;
-// console.log(moment().format("MM ddd, YYYY hh:mm:ss a"));
+export default HeaderTitle

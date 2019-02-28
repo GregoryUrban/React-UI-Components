@@ -3,7 +3,7 @@ import './Header.css';
 
 
 const HeaderContent = () => (
-    <div class="header-content">
+    <div className="header-content">
       <p>
         Let's learn React by building simple interfaces with components. Dont try
         to overthink it, just keep it simple and have fun. Once you feel

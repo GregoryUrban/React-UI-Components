@@ -26,6 +26,14 @@ img {
 
 h4 {
     padding: 1px;
+    margin-block-start: 0.01px;
+    margin-block-end: 0.01px;
+}
+
+p {
+    padding: 1px;
+    margin-block-start: 5px;
+    margin-block-end: 5px; 
 }
 
 .secondary-title {
