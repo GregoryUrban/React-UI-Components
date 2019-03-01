@@ -3,10 +3,8 @@ import './Display.css';
 
 const CalculatorDisplay = () => {
     return (
-    <div> 
-    I am Calculator Display.
-    </div>
-    );
+    <button className='display'>0</button>
+    )
   };
   
   export default CalculatorDisplay;
