@@ -11,21 +11,21 @@ const App = () => {
     <div className='container'>
       <CalculatorDisplay />
       <ActionButton buttonStyle='clear' text='clear'/>
-      <NumberButton buttonStyle='red' text='/'/>
-      <NumberButton buttonStyle='white' text='7'/>
-      <NumberButton buttonStyle='white' text='8'/>
-      <NumberButton buttonStyle='white' text='9'/>
-      <NumberButton buttonStyle='red' text='X'/>
-      <NumberButton buttonStyle='white' text='4'/>
-      <NumberButton buttonStyle='white' text='5'/>
-      <NumberButton buttonStyle='white' text='6'/>
-      <NumberButton buttonStyle='red' text='-'/>
-      <NumberButton buttonStyle='white' text='1'/>
-      <NumberButton buttonStyle='white' text='2'/>
-      <NumberButton buttonStyle='white' text='3'/>
-      <NumberButton buttonStyle='red' text='+'/>
+      <NumberButton buttonStyle='reds' text='÷'/>
+      <NumberButton buttonStyle='whites' text='7'/>
+      <NumberButton buttonStyle='whites' text='8'/>
+      <NumberButton buttonStyle='whites' text='9'/>
+      <NumberButton buttonStyle='reds' text='X'/>
+      <NumberButton buttonStyle='whites' text='4'/>
+      <NumberButton buttonStyle='whites' text='5'/>
+      <NumberButton buttonStyle='whites' text='6'/>
+      <NumberButton buttonStyle='reds' text='—'/>
+      <NumberButton buttonStyle='whites' text='1'/>
+      <NumberButton buttonStyle='whites' text='2'/>
+      <NumberButton buttonStyle='whites' text='3'/>
+      <NumberButton buttonStyle='reds' text='+'/>
       <ActionButton buttonStyle='zero' text='0'/>
-      <NumberButton buttonStyle='red' text='='/>
+      <NumberButton buttonStyle='reds' text='='/>
 
     </div>
   );
