@@ -1,1 +1,41 @@
 /* All styles for your header Components live here */
+.header-container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    border: 1px solid green;
+    width: 98%;
+    margin: 1px;
+    border-radius: 5px;
+}
+
+.title-content {
+    border: 1px solid green;
+    padding: 2px;
+    margin: 2px;   
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h4 {
+    padding: 1px;
+    margin-block-start: 0.01px;
+    margin-block-end: 0.01px;
+}
+
+p {
+    padding: 1px;
+    margin-block-start: 5px;
+    margin-block-end: 5px; 
+}
+
+.secondary-title {
+    color: gray;
+  }
